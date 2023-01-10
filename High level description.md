@@ -52,6 +52,7 @@ The database backend can be populated with data (ingredients, recipies, books, .
 Entity - relationship diagram
 
 
-![[er-cookbook.jpg]]
+![alt text](https://raw.githubusercontent.com/sprenge/fridge2meal/main/er-cookbook.jpg)
+
 
 
