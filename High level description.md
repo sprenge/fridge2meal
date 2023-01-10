@@ -40,7 +40,7 @@ The business logic will serve as the brain for the fridge2meal application.  It 
 
 ## Database population via an excel sheet
 
-The database backend can be populated with data (ingredients, recipies, books, ...).  Another way to populate the database is via an excel sheet that is formatted according to strict rules.
+The database backend can be populated with data (ingredients, recipies, books, ...).  Another way to populate the database is via an excel sheet that is formatted according to strict rules.   See sample.xlsx for an example of an excel sheet that is correctly formatted.
 
 # detailed architecture
 
