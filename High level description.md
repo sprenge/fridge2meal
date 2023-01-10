@@ -51,7 +51,7 @@ The database backend can be populated with data (ingredients, recipies, books, .
 
 Entity - relationship diagram
 
-![[Pasted image 20230110202434.png]]
 
+![[er-cookbook.jpg]]
 
 
