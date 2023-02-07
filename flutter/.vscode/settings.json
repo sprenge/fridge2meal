@@ -1,0 +1,25 @@
+{
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true,
+    "cSpell.words": [
+        "altijd",
+        "appbar",
+        "boeken",
+        "formkey",
+        "gerechten",
+        "globalappdata",
+        "huis",
+        "ijskast",
+        "instellingen",
+        "mijn",
+        "niet",
+        "Prefs",
+        "settingspage",
+        "sprintf",
+        "stel",
+        "subpage",
+        "tmplist",
+        "zoek"
+    ]
+}
