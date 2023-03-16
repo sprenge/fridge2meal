@@ -67,9 +67,11 @@ class Recipe(models.Model):
 
 class RecipeIngredient(models.Model):
     quantity = models.IntegerField(default=1)
-    unit = models.ForeignKey(Unit, on_delete=models.CASCADE)
+    unit = models.ForeignKey(
+        Unit, on_delete=models.CASCADE, blank=True, null=True)
     ingredient = models.ForeignKey(Ingredient, on_delete=models.CASCADE)
-    qualifier = models.ForeignKey(Qualifier, on_delete=models.CASCADE)
+    qualifier = models.ForeignKey(
+        Qualifier, on_delete=models.CASCADE, blank=True, null=True)
     recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
 
     def __str__(self):

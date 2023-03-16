@@ -10,6 +10,24 @@ fn1 = os.path.join(base+'IEZG2__thema_2022.pdf')
 fn2 = os.path.join(base+'IEZG2_index_ingrediënten_2022.pdf')
 fn3 = os.path.join(base+'IEZG2_index_recepten_2022.pdf')
 
+ingredient_translation_table = {
+    'Bessen, zwarte': 'Zwarte bessen',
+    'Kool, rode': 'Rode kool',
+    'Wijn, rode': 'Rode wijn',
+    'Rijst, wilde': 'Wilde rijst',
+    'Aardappel, zoet': 'Zoete aardappel',
+    'Bessen, blauwe': 'Blauwe bessen',
+    'Ham, gedroogd': 'Gedroogde ham',
+    'Tomaat, gedroogd': 'Gedroogde tomaat',
+    'Biet, rode': 'Rode biet',
+    'Peper, rode': 'Rode peper',
+    'Besjes, rood': 'Rode besjes',
+    'Wijn, witte': 'Witte wijn',
+    'Bonen, zwarte': 'Zwarte bonen',
+    'Kool, witte': 'Witte kool',
+    'Bonen, witte': 'Witte bonen',
+}
+
 
 # recipes pointing to book and page number book
 recipe_list = []
@@ -104,14 +122,20 @@ for ing in ingredient_list:
     recipe_ing[akey]['ingredient_list'].add(ing['ingredient'])
     ingredients.add(ing['ingredient'])
     # print(ing)
+print(len(recipe_ing))
 for e in recipe_ing:
     pass
     if 'PP_' in e:
         pass
-        print(e, recipe_ing[e])
+        # print(e, recipe_ing[e])
 
 for i in ingredients:
     if ',' in i:
         pass
-        # print(i)
+        print(i)
+    else:
+        if ' ' in i:
+            pass
+            print(i)
 # print(ingredients)
+print(len(ingredients))
